@@ -11,15 +11,15 @@ exclude:          [".editorconfig", ".gitignore", ".ruby-version", "bower.json",
 port:             9001
 
 # Custom vars
-repo:             https://github.com/twbs/bootstrap
-download:         https://github.com/twbs/bootstrap/archive/3.0.0-wip.zip
-download_dist:    http://getbootstrap.com/bs-v3.0.0-rc1-dist.zip
+repo:             https://github.com/jnaqsh/rbootstrap
+download:         https://github.com/jnaqsh/rbootstrap/archive/3.0.0-wip.zip
+download_dist:    http://rbootstrap.ir/bs-v3.0.0-rc1-dist.zip
 
-examples:         http://examples.getbootstrap.com
-examples_repo:    https://github.com/twbs/bootstrap-examples
+examples:         http://examples.rbootstrap.ir
+examples_repo:    https://github.com/jnaqsh/bootstrap-examples
 
-glyphicons:       http://glyphicons.getbootstrap.com
-glyphicons_repo:  https://github.com/twbs/bootstrap-glyphicons
+glyphicons:       http://glyphicons.rbootstrap.ir
+glyphicons_repo:  https://github.com/jnaqsh/bootstrap-glyphicons
 
 blog:             http://blog.getbootstrap.com
 expo:             http://expo.getbootstrap.com
