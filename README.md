@@ -1,6 +1,6 @@
 # rBootstrap v3.0.0
 
-rBootstrap is the RTL version of [Twitter Bootstrap]((http://getbootstrap.com)
+rBootstrap is the RTL version of [Twitter Bootstrap](http://getbootstrap.com).
 
 ## Bugs
 
