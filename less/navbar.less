@@ -33,7 +33,7 @@
   .clearfix();
 
   @media (min-width: @grid-float-breakpoint) {
-    float: left;
+    float: right;
   }
 }
 
@@ -79,14 +79,14 @@
     }
 
     // Account for first and last children spacing
-    .navbar-nav.navbar-left:first-child {
-      margin-left: -@navbar-padding-horizontal;
-    }
-    .navbar-nav.navbar-right:last-child {
+    .navbar-nav.navbar-right:first-child {
       margin-right: -@navbar-padding-horizontal;
     }
+    .navbar-nav.navbar-left:last-child {
+      margin-left: -@navbar-padding-horizontal;
+    }
     .navbar-text:last-child {
-      margin-right: 0;
+      margin-left: 0;
     }
   }
 }
@@ -148,7 +148,7 @@
 // Brand/project name
 
 .navbar-brand {
-  float: left;
+  float: right;
   padding: @navbar-padding-vertical @navbar-padding-horizontal;
   font-size: @font-size-large;
   line-height: @line-height-computed;
@@ -159,7 +159,7 @@
 
   @media (min-width: @grid-float-breakpoint) {
     .navbar > .container & {
-      margin-left: -@navbar-padding-horizontal;
+      margin-right: -@navbar-padding-horizontal;
     }
   }
 }
@@ -172,8 +172,8 @@
 
 .navbar-toggle {
   position: relative;
-  float: right;
-  margin-right: @navbar-padding-horizontal;
+  float: left;
+  margin-left: @navbar-padding-horizontal;
   padding: 9px 10px;
   .navbar-vertical-align(34px);
   background-color: transparent;
@@ -223,7 +223,7 @@
       box-shadow: none;
       > li > a,
       .dropdown-header {
-        padding: 5px 15px 5px 25px;
+        padding: 5px 25px 5px 15px;
       }
       > li > a {
         line-height: @line-height-computed;
@@ -237,11 +237,11 @@
 
   // Uncollapse the nav
   @media (min-width: @grid-float-breakpoint) {
-    float: left;
+    float: right;
     margin: 0;
 
     > li {
-      float: left;
+      float: right;
       > a {
         padding-top: ((@navbar-height - @line-height-computed) / 2);
         padding-bottom: ((@navbar-height - @line-height-computed) / 2);
@@ -315,11 +315,11 @@
   .border-bottom-radius(0);
 }
 
-// Right aligned menus need alt position
-.navbar-nav.pull-right > li > .dropdown-menu,
-.navbar-nav > li > .dropdown-menu.pull-right {
-  left: auto;
-  right: 0;
+// Left aligned menus need alt position
+.navbar-nav.pull-left > li > .dropdown-menu,
+.navbar-nav > li > .dropdown-menu.pull-left {
+  right: auto;
+  left: 0;
 }
 
 
@@ -337,7 +337,7 @@
 // Add a class to make any element properly align itself vertically within the navbars.
 
 .navbar-text {
-  float: left;
+  float: right;
   .navbar-vertical-align(@line-height-computed);
 
   @media (min-width: @grid-float-breakpoint) {
