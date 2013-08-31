@@ -1,9 +1,13 @@
 {
-    "name": "twbs/bootstrap"
+    "name": "jnaqsh/rbootstrap"
   , "description": "Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development."
-  , "keywords": ["bootstrap", "css"]
-  , "homepage": "http://getbootstrap.com"
+  , "keywords": ["rbootstrap", "bootstrap", "css"]
+  , "homepage": "http://rbootstrap.ir/"
   , "authors": [
+      {
+        "name": "Hamed Ramezanian",
+        "email": "hamed.ramezanian.nik@gmail.com"
+      },
       {
         "name": "Mark Otto",
         "email": "markdotto@gmail.com"
@@ -14,7 +18,7 @@
       }
     ]
   , "support": {
-      "issues": "https://github.com/twbs/bootstrap/issues"
+      "issues": "https://github.com/jnaqsh/rbootstrap/issues"
     }
   , "license": "Apache-2.0"
 }
