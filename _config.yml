@@ -11,18 +11,14 @@ exclude:          [".editorconfig", ".gitignore", ".ruby-version", "bower.json",
 port:             9001
 
 # Custom vars
+current_version:  3.0.0
 repo:             https://github.com/jnaqsh/rbootstrap
-download:         https://github.com/jnaqsh/rbootstrap/archive/3.0.0-wip.zip
-download_dist:    http://rbootstrap.ir/bs-v3.0.0-rc1-dist.zip
-
-examples:         http://examples.rbootstrap.ir
-examples_repo:    https://github.com/jnaqsh/bootstrap-examples
-
-glyphicons:       http://glyphicons.rbootstrap.ir
-glyphicons_repo:  https://github.com/jnaqsh/bootstrap-glyphicons
+download:         https://github.com/jnaqsh/rbootstrap/archive/v3.0.0.zip
+download_dist:    https://github.com/jnaqsh/rbootstrap/releases/download/v3.0.0/rbootstrap-3.0.0-dist.zip
 
 blog:             http://blog.getbootstrap.com
 expo:             http://expo.getbootstrap.com
 
-cdn_css:          //netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css
-cdn_js:           //netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js
+cdn_css:          //netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css
+cdn_theme_css:    //netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css
+cdn_js:           //netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js

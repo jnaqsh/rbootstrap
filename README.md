@@ -2,9 +2,26 @@
 
 rBootstrap is the RTL version of [Twitter Bootstrap](http://getbootstrap.com).
 
-## Bugs
+To get started, check out [http://rbootstrap.ir](http://rbootstrap.ir)!
+
+
+
+## Quick start
+
+Three quick start options are available:
+
+* [Download the latest release](https://github.com/jnaqsh/rbootstrap/releases/tag/v3.0.0).
+* Clone the repo: `git clone git://github.com/jnaqsh/rbootstrap.git`.
+* Install with [Bower](http://bower.io): `bower install rbootstrap`.
+
+Read the [Getting Started page](http://rbootstrap.ir/getting-started/) for information on the framework contents, templates and examples, and more.
+
+
+
+## Bugs and feature requests
 
 Have a bug or a feature request? [Please open a new issue](https://github.com/jnaqsh/rbootstrap/issues).
+
 
 
 ## Documentation
@@ -44,13 +61,13 @@ When completed, you'll be able to run the various Grunt commands provided from t
 ### Available Grunt commands
 
 #### Build - `grunt`
-Run `grunt` to run tests locally and compile the CSS and JavaScript into `/dist`. **Requires recess and uglify-js.**
+Run `grunt` to run tests locally and compile the CSS and JavaScript into `/dist`. **Uses [recess](http://twitter.github.io/recess/) and [UglifyJS](http://lisperator.net/uglifyjs/).**
 
 #### Only compile CSS and JavaScript - `grunt dist`
-`grunt dist` creates the `/dist` directory with compiled files. **Requires recess and uglify-js.**
+`grunt dist` creates the `/dist` directory with compiled files. **Uses [recess](http://twitter.github.io/recess/) and [UglifyJS](http://lisperator.net/uglifyjs/).**
 
 #### Tests - `grunt test`
-Runs jshint and qunit tests headlessly in [phantomjs](http://code.google.com/p/phantomjs/) (used for ci). **Requires phantomjs.**
+Runs [JSHint](http://jshint.com) and [QUnit](http://qunitjs.com/) tests headlessly in [PhantomJS](http://phantomjs.org/) (used for CI).
 
 #### Watch - `grunt watch`
 This is a convenience method for watching just Less files and automatically building them whenever you save.
@@ -79,7 +96,7 @@ For more information on SemVer, please visit [http://semver.org/](http://semver.
 
 
 
-## Authors
+## Author
 
 **Hamed Ramezanian**
 
