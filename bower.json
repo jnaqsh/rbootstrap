@@ -1,7 +1,7 @@
 {
-  "name": "bootstrap",
+  "name": "rbootstrap",
   "version": "3.0.0",
-  "main": ["./dist/js/bootstrap.js", "./dist/css/bootstrap.css", "./dist/fonts/*"],
+  "main": ["./dist/js/rbootstrap.js", "./dist/css/rbootstrap.css", "./dist/fonts/*"],
   "ignore": [
       "**/.*"
   ],
