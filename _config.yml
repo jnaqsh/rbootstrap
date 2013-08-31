@@ -11,7 +11,7 @@ exclude:          [".editorconfig", ".gitignore", ".ruby-version", "bower.json",
 port:             9001
 
 # Custom vars
-current_version:  3.0.0
+current_version:  ۳.۰.۰
 repo:             https://github.com/jnaqsh/rbootstrap
 download:         https://github.com/jnaqsh/rbootstrap/archive/v3.0.0.zip
 download_dist:    https://github.com/jnaqsh/rbootstrap/releases/download/v3.0.0/rbootstrap-3.0.0-dist.zip
