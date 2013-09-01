@@ -948,7 +948,7 @@ h1[id] {
   padding-bottom: 1px;
   margin-bottom: 20px;
   list-style: none;
-  overflow: hidden;
+/*  overflow: hidden;*/
 }
 .bs-glyphicons li {
   float: right;
