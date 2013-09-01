@@ -584,7 +584,7 @@ h1[id] {
   content: "نمونه";
   position: absolute;
   top:  15px;
-  left: 15px;
+  right: 15px;
   font-size: 12px;
   font-weight: bold;
   color: #bbb;
