@@ -692,6 +692,7 @@ address {
 
 code,
 pre {
+  display: inline-table;
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
   text-align: left;
   direction: ltr;
@@ -4672,7 +4673,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .breadcrumb > li + li:before {
   padding: 0 5px;
   color: #cccccc;
-  content: "/\00a0";
+  content: "\\\00a0";
 }
 
 .breadcrumb > .active {
