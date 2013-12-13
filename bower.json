@@ -1,9 +1,25 @@
 {
   "name": "rbootstrap",
-  "version": "3.0.0",
-  "main": ["./dist/js/rbootstrap.js", "./dist/css/rbootstrap.css", "./dist/fonts/*"],
+  "version": "3.0.3",
+  "main": [
+    "./dist/js/rbootstrap.js",
+    "./dist/css/rbootstrap.css",
+    "./dist/fonts/glyphicons-halflings-regular.eot",
+    "./dist/fonts/glyphicons-halflings-regular.svg",
+    "./dist/fonts/glyphicons-halflings-regular.ttf",
+    "./dist/fonts/glyphicons-halflings-regular.woff"
+  ],
   "ignore": [
-      "**/.*"
+    "**/.*",
+    "_*",
+    "docs-assets",
+    "examples",
+    "/fonts",
+    "js/tests",
+    "CNAME",
+    "CONTRIBUTING.md",
+    "composer.json",
+    "*.html"
   ],
   "dependencies": {
     "jquery": ">= 1.9.0"

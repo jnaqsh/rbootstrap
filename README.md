@@ -1,4 +1,4 @@
-# rBootstrap v3.0.0
+# rBootstrap v3.0.3
 
 rBootstrap is the RTL version of [Twitter Bootstrap](http://getbootstrap.com).
 
@@ -10,11 +10,34 @@ To get started, check out [http://rbootstrap.ir](http://rbootstrap.ir)!
 
 Three quick start options are available:
 
-* [Download the latest release](https://github.com/jnaqsh/rbootstrap/releases/tag/v3.0.0).
-* Clone the repo: `git clone git://github.com/jnaqsh/rbootstrap.git`.
+* [Download the latest release](https://github.com/jnaqsh/rbootstrap/archive/v3.0.3.zip).
+* Clone the repo: `git clone https://github.com/jnaqsh/rbootstrap.git`.
 * Install with [Bower](http://bower.io): `bower install rbootstrap`.
 
 Read the [Getting Started page](http://rbootstrap.ir/getting-started/) for information on the framework contents, templates and examples, and more.
+
+### What's included
+
+Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
+
+```
+bootstrap/
+├── css/
+│   ├── bootstrap.css
+│   ├── bootstrap.min.css
+│   ├── bootstrap-theme.css
+│   └── bootstrap-theme.min.css
+├── js/
+│   ├── bootstrap.js
+│   └── bootstrap.min.js
+└── fonts/
+    ├── glyphicons-halflings-regular.eot
+    ├── glyphicons-halflings-regular.svg
+    ├── glyphicons-halflings-regular.ttf
+    └── glyphicons-halflings-regular.woff
+```
+
+We provide compiled CSS and JS (`bootstrap.*`), as well as compiled and minified CSS and JS (`bootstrap.min.*`). Fonts from Glyphicons are included, as is the optional Bootstrap theme.
 
 
 
@@ -31,15 +54,18 @@ Bootstrap's documentation, included in this repo in the root directory, is built
 ### Running documentation locally
 
 1. If necessary, [install Jekyll](http://jekyllrb.com/docs/installation) (requires v1.x).
+  - **Windows users:** read [this unofficial guide](https://github.com/juthilo/run-jekyll-on-windows/) to get Jekyll up and running without problems.
 2. From the root `/rbootstrap` directory, run `jekyll serve` in the command line.
-  - **Windows users:** run `chcp 65001` first to change the command prompt's character encoding ([code page](http://en.wikipedia.org/wiki/Windows_code_page)) to UTF-8 so Jekyll runs without errors.
-3. Open [http://localhost:9001](http://localhost:9001) in your browser, and voilà.
+  - **Windows users:** For Ruby 2.0.0 run `chcp 65001` first to change the command prompt's character encoding ([code page](http://en.wikipedia.org/wiki/Windows_code_page)) to UTF-8 so Jekyll runs without errors. For Ruby 1.9.3 you can alternatively do `SET LANG=en_EN.UTF-8`. In addition, ensure you have Python installed and added in your `PATH` or the build will fail due to our Pygments dependency.
+3. Open <http://localhost:9001> in your browser, and voilà.
 
-Learn more about using Jekyll by reading their [documentation](http://jekyllrb.com/docs/home/).
+Learn more about using Jekyll by reading its [documentation](http://jekyllrb.com/docs/home/).
 
 ### Documentation for previous releases
 
-Documentation for v2.3.2 has been made available for the time being at [http://rbootstrap.ir/2.3.2/](http://rbootstrap.ir/2.3.2/) while folks transition to Bootstrap 3.
+Documentation for v2.3.2 has been made available for the time being at <http://rbootstrap.ir/2.3.2/> while folks transition to Bootstrap 3.
+
+[Previous releases](https://github.com/jnaqsh/rbootstrap/releases) and their documentation are also available for download.
 
 
 
@@ -52,7 +78,7 @@ Bootstrap uses [Grunt](http://gruntjs.com/) with convenient methods for working 
 From the command line:
 
 1. Install `grunt-cli` globally with `npm install -g grunt-cli`.
-2. Install the [necessary local dependencies](package.json) via `npm install`
+2. Navigate to the root `/bootstrap` directory, then run `npm install`. npm will look at [package.json](package.json) and automatically install the necessary local dependencies listed there.
 
 When completed, you'll be able to run the various Grunt commands provided from the command line.
 
@@ -92,7 +118,7 @@ And constructed with the following guidelines:
 * New additions without breaking backward compatibility bumps the minor (and resets the patch)
 * Bug fixes and misc changes bumps the patch
 
-For more information on SemVer, please visit [http://semver.org/](http://semver.org/).
+For more information on SemVer, please visit <http://semver.org/>.
 
 
 
